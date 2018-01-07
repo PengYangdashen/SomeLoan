@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backcolor"
+   android:orientation="vertical">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_relation_style"
+   android:orientation="vertical" 
+   android:layout_marginLeft="10dp"
+   android:layout_marginRight="10dp"
+   android:layout_marginTop="10dp">
+    
+		  <TextView
+        android:id="@+id/txt_title"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="体现到账通知"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+		  
+		  <View android:layout_width="fill_parent"
+		      android:layout_height="0.5dp"
+		      android:background="@color/backcolor"/>
+		   <TextView
+        android:id="@+id/txt_content"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:text=""
+        android:padding="15dp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+		   
+		   <TextView
+        android:id="@+id/txt_result"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:text="体现到账通知"
+        android:paddingLeft="15dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        />
+</LinearLayout>
+</LinearLayout>

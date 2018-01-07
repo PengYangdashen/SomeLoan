@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sd.pallentloan"
+    android:configChanges="keyboardHidden|orientation"
+    android:screenOrientation="portrait"
+    android:versionCode="4"
+    android:versionName="1.3.0"
+    android:windowSoftInputMode="adjustPan" >
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.RECORD_VIDEO" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+
+    <!-- <permission android:name="com.fuiou.permission.FUIOU_PAY" /> -->
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <!-- 有盾SDK所需权限声明 -->
+    <uses-permission android:name="android.permission.BATTERY_STATS" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <!-- 有盾SDK所需权限声明 -->
+
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.CAPTURE_AUDIO_OUTPUT" />
+    <!-- 配置权限 -->
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+
+    <application
+        android:name="com.sd.pallentloan.utils.BaseApplication"
+        android:configChanges="keyboardHidden|orientation"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="com.sd.pallentloan.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.fuiou.pay.activity.FyWebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name="com.mob.tools.MobUIShell"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="stateHidden|adjustResize" >
+            <intent-filter>
+                <data android:scheme="tencent100371282" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <!-- 调用新浪原生SDK，需要注册的回调activity -->
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+       
+        <!-- 微信分享回调 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- 使用SDK时需要配置的Activity -->
+        <activity
+            android:name="com.android.moblie.zmxy.antgroup.creditsdk.app.SDKActivity"
+            android:label="@string/app_label"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GuideAcytivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".example" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgetPwdOneActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgetPwdTwoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IndexActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InviteActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MoneyRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OutMoneyRecordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BindCardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MyMoneyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".RelationInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BaseInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PhoneNumberActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WorkInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BankCardManageActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GetMoneyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CameraActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WebviewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BackMoneyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AskMoneyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ProblemActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Camera2Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IWantMoneyActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity
+            android:name="com.authreal.ui.SuperActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SuperAppTheme" />
+        <activity
+            android:name="com.authreal.ui.WebActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SuperAppTheme" />
+        <activity
+            android:name=".InputActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name="com.moxie.client.MainActivity" >
+        </activity>
+        <activity android:name="com.sd.pallentloan.InvestPersonActivity" />
+        <activity android:name="com.sd.pallentloan.InvestCuiShouActivity" />
+        <activity android:name="com.sd.pallentloan.MyOverDueListActivity" />
+        <activity android:name="com.sd.pallentloan.BorrowDetailActivity" />
+        <activity android:name="com.sd.pallentloan.ApplayInvesterActivity" />
+        <activity android:name="com.sd.pallentloan.WaitLoanActivity" />
+        <activity android:name="com.sd.pallentloan.LoanDetailActivity" />
+        <activity android:name="com.sd.pallentloan.OverduePhoneActivity" />
+        <activity android:name="com.sd.pallentloan.GetMoneyRecordActivity" >
+        </activity>
+        <activity android:name="com.sd.pallentloan.BackMoney2Activity" />
+        <activity android:name="com.sd.pallentloan.BindCard2Activity" />
+
+        <!-- LLYT SDK START -->
+        <activity
+            android:name="com.yintong.secure.activity.BaseActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <service android:name="com.yintong.secure.service.PayService" >
+        </service>
+        <!-- LLYT SDK END -->
+        
+        
+        
+    </application>
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="17" />
+
+</manifest>

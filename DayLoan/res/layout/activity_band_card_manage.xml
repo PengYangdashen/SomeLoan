@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backcolor" >
+    
+    <include layout="@layout/public_title"/>
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/name_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+    
+     <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="visible">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="身份证"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/idno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="1dp"
+        android:visibility="gone">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="银行"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/bank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+    
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp"
+        android:layout_marginBottom="1dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="银行卡号"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/id_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:padding="15dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="证件认证"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/card_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="已认证"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+</LinearLayout>

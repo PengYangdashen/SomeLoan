@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <LinearLayout
+        android:id="@+id/ll_lineone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_IDcard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_IDcard"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dir" />
+
+            <TextView
+                android:id="@+id/tv_IDcard"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/iv_IDcard"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="身份证"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_housecard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_housecard"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dir" />
+
+            <TextView
+                android:id="@+id/tv_housecard"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/iv_housecard"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="房产证"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_drivecard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_drivecard"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dir" />
+
+            <TextView
+                android:id="@+id/tv_drivecard"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/iv_drivecard"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="驾驶证"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_linetwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_lineone"
+        android:layout_marginTop="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/rl_carcard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_carcard"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dir" />
+
+            <TextView
+                android:id="@+id/tv_carcard"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/iv_carcard"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="汽车证"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_busynesscard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_busynesscard"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dir" />
+
+            <TextView
+                android:id="@+id/tv_busynesscard"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/iv_busynesscard"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="商业证"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_countcard"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <ImageView
+                android:id="@+id/iv_countcard"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/dir" />
+
+            <TextView
+                android:id="@+id/tv_countcard"
+                android:layout_width="80dp"
+                android:layout_height="30dp"
+                android:layout_below="@+id/iv_countcard"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:text="会计证"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_upload"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/btn_takephoto"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_button_totakephoto_press"
+        android:gravity="center"
+        android:text="上传"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_takephoto"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/selector_button_totakephoto_press"
+        android:gravity="center"
+        android:text="去拍照"
+        android:textColor="#333333"
+        android:textSize="14sp" />
+
+</RelativeLayout>

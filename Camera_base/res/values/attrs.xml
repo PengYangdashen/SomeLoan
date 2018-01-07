@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="LoopView">
+        <attr name="selectorItemColor" format="color" />
+        <attr name="unSelectorItemColor" format="color" />
+        <attr name="velocityFling" format="integer" />
+        <attr name="radius" format="integer" />
+        <attr name="lineSpacingMultiplier" format="float" />
+        <attr name="isLoop" format="boolean" />
+        <attr name="itemsVisible" format="integer" />
+    </declare-styleable>
+
+</resources>

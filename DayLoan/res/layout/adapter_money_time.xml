@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/backcolor"
+   >
+    
+    <RelativeLayout android:layout_width="fill_parent"
+	    android:layout_height="40dp"
+	     android:paddingLeft="18dp"
+	    android:paddingRight="18dp">
+	    
+	    <TextView
+	        android:id="@+id/money_time"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="时间：  2017-2"
+            android:layout_centerVertical="true"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="14sp" />
+	    
+	    <TextView
+	        android:id="@+id/get_money"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="已赚取：￥350"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+	</RelativeLayout>
+    
+    
+   <ListView
+        android:id="@+id/money_time_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp"
+        android:fadeScrollbars="false" 
+        android:listSelector="@null"
+        android:layout_gravity="center"
+         android:paddingLeft="18dp"
+	    android:paddingRight="18dp"
+	    android:background="@color/white"
+        android:divider="@color/backcolor"
+        android:scrollbars="vertical"/>
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:padding="10dp"
+    >
+    
+		 <LinearLayout 
+		     android:id="@+id/top"
+		     android:layout_width="wrap_content"
+		     android:layout_height="wrap_content"
+		     android:orientation="vertical">
+		      <TextView
+        android:id="@+id/borrow_money"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="申请金额:500元"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+		   <TextView
+        android:id="@+id/borrow_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="02月27日 16:09"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+		 </LinearLayout>
+		    <TextView
+        android:id="@+id/borrow_type"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="还在审核中"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/top"
+        android:gravity="right|center_vertical"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        />
+</RelativeLayout>
+
+

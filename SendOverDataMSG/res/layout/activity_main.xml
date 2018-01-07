@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sendoverdatamsg.MainActivity" >
+
+    <Button
+        android:id="@+id/btn_wuyaochen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_zhouyun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="吴耀臣"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_zhouyun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:text="周云"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_liuyulong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_zhouyun"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="刘域龙"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/btn_yangwenming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_liuyulong"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="杨绍明"
+        android:textSize="20sp" />
+
+</RelativeLayout>

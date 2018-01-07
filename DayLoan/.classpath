@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="libs/aliyun-oss-sdk-android-2.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/android-async-http-1.4.6.jar"/>
+	<classpathentry kind="lib" path="libs/android-support-v4.jar"/>
+	<classpathentry kind="lib" path="libs/bqs-crawler-cloud-sdk-v2.0.0.jar"/>
+	<classpathentry kind="lib" path="libs/commons-lang-2.5.jar"/>
+	<classpathentry kind="lib" path="libs/cordova-2.9.0.jar"/>
+	<classpathentry kind="lib" path="libs/core.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/eventbus-3.0.0.jar"/>
+	<classpathentry kind="lib" path="libs/jg_filter_sdk_1.1.jar"/>
+	<classpathentry kind="lib" path="libs/mid-core-sdk-3.7.2.jar"/>
+	<classpathentry kind="lib" path="libs/MobCommons-2017.0216.1054.jar"/>
+	<classpathentry kind="lib" path="libs/MobTools-2017.0216.1054.jar"/>
+	<classpathentry kind="lib" path="libs/mta-android-stat-sdk-3.0.0_20170502-jdk1.6.jar"/>
+	<classpathentry kind="lib" path="libs/nineoldandroids-library-2.4.0.jar"/>
+	<classpathentry kind="lib" path="libs/okhttp-3.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/okio-1.10.0.jar"/>
+	<classpathentry kind="lib" path="libs/paysdkPY36sdk.jar"/>
+	<classpathentry kind="lib" path="libs/SecurePay-2.6.5.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Core-2.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-QQ-2.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-QZone-2.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-ShortMessage-2.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-2.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-Core-2.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-Moments-2.8.1.jar"/>
+	<classpathentry kind="lib" path="libs/universal-image-loader-1.9.3.jar"/>
+	<classpathentry kind="lib" path="libs/wup-1.0.0.E-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="libs/Xg_sdk_v3.1_20170417_0946.jar"/>
+	<classpathentry kind="lib" path="libs/xUtils-2.6.14.jar"/>
+	<classpathentry kind="lib" path="libs/zmxySDKALCmini_V1.01450366738902_release.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry exported="true" kind="lib" path="/SuperActivityHalf/classes.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

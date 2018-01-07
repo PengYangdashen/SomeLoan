@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@color/backcolor">
+    
+    <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+        <include layout="@layout/public_title"/>
+
+    <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp"
+       android:layout_marginTop="22dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="借款审核批复详情:"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/name_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+     <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp"
+       >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="批复金额"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/pf_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+      <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="实际到账金额"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/sj_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+    
+      <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="借款期限"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/jk_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+     <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="总费用"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/jk_referne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="150.00元"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp"
+       android:layout_marginTop="15dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="费用说明:"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+     <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp"
+       >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="利息"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/low_referne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9.00元"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+      <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:visibility="gone"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="撮合费用"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10.00元"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+    
+      <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:visibility="gone"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="信审费"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20.00元"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+     <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:visibility="gone"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="管理费"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="20.00元"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+    
+       <RelativeLayout android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:paddingTop="15dp"
+        android:layout_marginBottom="1dp"
+        android:paddingBottom="10dp" >
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="服务费"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+ <TextView
+     android:id="@+id/fx_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/textcolor"
+            android:textSize="14sp" />
+        
+    </RelativeLayout>
+    
+       
+       <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal" >
+
+        <CheckBox
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:gravity="center"
+            android:button="@drawable/checkbox_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp"
+            android:lines="2"
+            android:gravity="center"
+            android:text="我已阅读借款费用明细，并继续提交视频完成借款"
+            android:textColor="@color/textcolor"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    
+       <Button
+        android:id="@+id/confirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/registbtn_style"
+        android:text="确认拍摄并上传"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+    </LinearLayout>
+    
+
+</ScrollView>

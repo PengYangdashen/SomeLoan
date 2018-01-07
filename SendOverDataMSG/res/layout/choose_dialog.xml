@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_choose"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#88333333"
+    android:padding="40dp" >
+
+    <RelativeLayout
+        android:id="@+id/rl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff" >
+
+        <TextView
+            android:id="@+id/tv_sendto"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="发送给：" />
+
+        <TextView
+            android:id="@+id/tv_choose"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_sendto"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="请选择模板!" />
+
+        <TextView
+            android:id="@+id/tv_template1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_choose"
+            android:gravity="center_vertical"
+            android:text="模板1" />
+
+        <TextView
+            android:id="@+id/tv_template2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_template1"
+            android:gravity="center_vertical"
+            android:text="模板2" />
+
+        <TextView
+            android:id="@+id/tv_template3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@+id/tv_template2"
+            android:gravity="center_vertical"
+            android:text="模板3" />
+
+        <Button
+            android:id="@+id/btn_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:text="取消"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

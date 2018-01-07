@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/backcolor"
+    >
+    
+<include layout="@layout/public_title"/>
+
+
+<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="添加直系亲属"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/yellor"
+                android:textSize="14sp" />
+<LinearLayout 
+      android:id="@+id/left"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/white_relation_style"
+    android:padding="8dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp">
+    
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.8"
+        >
+        
+         <LinearLayout android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="姓名"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+         <TextView
+             android:id="@+id/relation_name"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="点击获取"
+                android:layout_gravity="center"
+                android:gravity="right"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+    </LinearLayout>
+        
+          <LinearLayout android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="手机号码"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+         <TextView
+             android:id="@+id/relation_phone"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="点击获取"
+                android:gravity="right"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+    </LinearLayout>
+        
+           <LinearLayout android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="关系"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+         <TextView
+             android:id="@+id/relation"
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="点击获取"
+                android:gravity="right"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+    </LinearLayout>
+        
+    </LinearLayout>
+    <ImageView 
+        android:layout_width="40dp"
+        android:layout_weight="0.2"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:src="@drawable/app_right_arrow_icon"
+        />
+</LinearLayout>
+
+
+<TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="添加朋友、同事"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/yellor"
+                android:textSize="14sp" />
+
+<LinearLayout
+    android:id="@+id/right"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="8dp"
+    android:background="@drawable/white_relation_style"
+    android:orientation="horizontal"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="姓名"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/relation_name2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="点击获取"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="手机号码"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/relation_phone2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="点击获取"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="关系"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/relation2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:text="点击获取"
+                android:textColor="@color/textcolor"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.2"
+        android:src="@drawable/app_right_arrow_icon" />
+</LinearLayout>
+
+<TextView
+        android:id="@+id/commit_txt"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/registbtn_style"
+        android:text="提交"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</LinearLayout>

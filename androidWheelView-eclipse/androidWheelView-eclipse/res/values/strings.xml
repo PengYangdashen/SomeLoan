@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WheelViewDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="option_list">
+        <item>身份证</item>
+        <item>房产证</item>
+        <item>驾驶证</item>
+        <item>汽车证</item>
+        <item>商业证</item>
+    </string-array>
+
+</resources>

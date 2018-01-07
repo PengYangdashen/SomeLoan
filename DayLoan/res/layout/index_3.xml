@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/index_2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <FrameLayout
+        android:id="@+id/index3_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rg_bottom"
+        android:orientation="vertical" 
+        android:background="@color/white">
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rg_bottom"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/rb_home"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/selector_fragment_button_home"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:text="首页"
+            android:textColor="@drawable/selector_fragment_button_text" />
+
+        <RadioButton
+            android:id="@+id/rb_me"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/selector_fragment_button_me"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:text="我"
+            android:textColor="@drawable/selector_fragment_button_text" />
+
+        <RadioButton
+            android:id="@+id/rb_more"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawablePadding="5dp"
+            android:drawableTop="@drawable/selector_fragment_button_more"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="5dp"
+            android:paddingTop="10dp"
+            android:text="更多"
+            android:textColor="@drawable/selector_fragment_button_text" />
+    </RadioGroup>
+
+</RelativeLayout>

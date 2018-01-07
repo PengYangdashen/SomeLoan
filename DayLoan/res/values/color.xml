@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+      <drawable name="red">#f00</drawable>  
+    <drawable name="white">#fff</drawable>  
+    <drawable name="gray">#ccc</drawable> 
+    <color name="green">#4BCD61</color>
+    <color name="invest_gray">#747474</color>
+   <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="backcolor">#E6EAEC</color>
+    <color name="textcolor">#323232</color>
+<!--     <color name="light_yellor">#F1DEBE</color> -->
+    <color name="gray">#999999</color>
+    <color name="yellor">#F9872F</color>
+     <color name="light_yellor">#F8BB60</color>
+    <color name="light_gray">#C5C7CB</color>
+    <color name="red">#F01717</color>
+     <color name="trans">#00000000</color>
+    <color name="alertdialog_line">#c6c6c6</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <color name="actionsheet_red">#FD4A2E</color>
+    <color name="actionsheet_gray">#8F8F8F</color>
+    
+     <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffffff</color>
+    <color name="colorBlack">#ff000000</color>
+    <color name="colorGray">#ff888888</color>
+    <color name="colorGrayDark">#ffe7e8ea</color>
+     <color name="app_color_gray_3">#ff333333</color>
+    <color name="app_color_gray_6">#ff666666</color>
+    <color name="app_color_gray_9">#ff999999</color>
+    <color name="app_color_gray_c9">#ffc9c9c9</color>
+    <color name="app_color_gray_d0">#ffd0d0d0</color>
+    <color name="light_bule">#2FB8C2</color>
+    
+    
+<!--    100% — FF -->
+<!-- 95% — F2 -->
+<!-- 90% — E6 -->
+<!-- 85% — D9 -->
+<!-- 80% — CC -->
+<!-- 75% — BF -->
+<!-- 70% — B3 -->
+<!-- 65% — A6 -->
+<!-- 60% — 99 -->
+<!-- 55% — 8C -->
+<!-- 50% — 80 -->
+<!-- 45% — 73 -->
+<!-- 40% — 66 -->
+<!-- 35% — 59 -->
+<!-- 30% — 4D -->
+<!-- 25% — 40 -->
+<!-- 20% — 33 -->
+<!-- 15% — 26 -->
+<!-- 10% — 1A -->
+<!-- 5% — 0D -->
+<!-- 0% — 00 -->
+</resources>
